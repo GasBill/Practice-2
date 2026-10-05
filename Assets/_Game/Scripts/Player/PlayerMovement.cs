@@ -36,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
     public bool IsGrounded => controller.isGrounded;
 
     public bool IsMoving =>
-        HorizontalSpeed > 0.1f;
+        HorizontalSpeed > 0.15f;
 
     public bool IsSprinting =>
         sprintAction.action.IsPressed() &&
